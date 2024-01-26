@@ -11,6 +11,18 @@
    - Usado para representar uma variável que pode ter qualquer tipo de valor.
    - Desabilita a verificação de tipo estático para a variável, permitindo que ela aceite qualquer valor sem gerar erros de compilação.
 
+  ### Union Type
+   - Adiciona tipagem dupla a uma variável ou função
+   - A variável ou função passa a aceitar dois tipos de dados
+
+  *EXEMPLO*
+  ```javascript
+  let id: number | string
+  id = 1;
+  id = "1"
+  ```
+  **
+
   *Declarando uma variável do tipo Any*
   ```javascript
   let valorQualquer: any = 5;

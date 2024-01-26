@@ -3,6 +3,29 @@
   <summary>Lógica de programação</summary>
 
   # Lógica de programação
+  ## Tipos de dados utilizados
+   - Number
+   - String
+   - Boolean
+  ### Tipo Any
+   - Usado para representar uma variável que pode ter qualquer tipo de valor.
+   - Desabilita a verificação de tipo estático para a variável, permitindo que ela aceite qualquer valor sem gerar erros de compilação.
+
+  *Declarando uma variável do tipo Any*
+  ```javascript
+  let valorQualquer: any = 5;
+  valorQualquer = "texto";
+  valorQualquer = { objeto: true };
+  ```
+  *Declarando uma função do tipo Any*
+  ```javascript
+  function retornaQualquerCoisa(): any {
+    return "qualquer coisa";
+  }
+
+  let resultado: any = retornaQualquerCoisa();
+  ```
+  
   ## Declaração de variáveis
   ### Inferência x annotaion
   **Inferência**
@@ -21,6 +44,11 @@
   ```javascript
   let nome:String = "Athos"
   ```
-  
+
+  ## Manipulação de Arrays
+  *Iniciando um array vazio*
+  ```javascript
+  let arrayVazio:number[] = [];
+  ```
   
 </details>

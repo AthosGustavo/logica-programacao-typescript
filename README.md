@@ -127,10 +127,6 @@
     return Math.pow(base, expoente);
   }
   ```
-
-
-
-
   
   ## Manipulação de Arrays
   *Iniciando um array vazio*
@@ -149,6 +145,21 @@
   let meuArray: number[] = [1,2,3]
   meuArray[3] = 4;
   ```
+  ## Objetos Types
+   - Coleção de dados simples no formato de objeto com par chave-valor
+  ```javascript
+  type User = {
+    nome: string;
+    idade: number:
+    email: string;
+  }
+  const user: User = {
+    nome: "athos",
+    idade: "22",
+    email: "athos@.com"
+  }
+  ```
+  
   ## Map
    - Coleção de dados no formato chave-valor
    - possui ordem de inserção

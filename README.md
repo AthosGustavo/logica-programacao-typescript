@@ -291,4 +291,15 @@
 
   ### Protected
    - Atributos protegidos podem ser acessados em classes derivadas (herança)
+
+  ## Polimorfismo
+  ### Sobrescrita de método
+   - No TS a sobrescrita de método não precisa ter a anotação @override, basta a assinatura do método ser igual ao método da classe pai.
+
+  atributos privados ´_nomeAtributo´
+
+
+
+
+
 </details>

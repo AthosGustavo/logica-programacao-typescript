@@ -57,6 +57,46 @@
   let nome:String = "Athos"
   ```
 
+  ## Declarando funções
+  ### Declaração padrão
+  ```javascript
+  function nomeFuncao(a: tipoParametro, b:tipoParametro): tipoRetorno {
+    return
+  }
+  ```
+  ### Declaração Expresão de função
+  ```javascript
+  let nomeFuncao = function(a: tipoParametro, b: tipoParametro): tipoRetorno{
+    return
+  }
+  ```
+  ### Declaração de função Arrow Function
+  ```javascript
+  let nomeFuncao = (a: tipoParametro, b: tipoParametro): tipoRetorno => {
+    return 
+  }
+  ```
+  ### Declaração de função com parâmetros opcionais
+  ```javascript
+  function saudacao(nome: string, sobrenome?: string): string{
+    if(sobrenome){
+      return `Olá, ${nome} ${sobrenome}`!;
+    }else{
+      return `Olá, ${nome}!`
+    }
+  }
+  ```
+  ### Declaração de função com parâmetro Default
+  ```javascript
+  function potencia(base: number, expoente: number = 2): number {
+    return Math.pow(base, expoente);
+  }
+  ```
+
+
+
+
+  
   ## Manipulação de Arrays
   *Iniciando um array vazio*
   ```javascript

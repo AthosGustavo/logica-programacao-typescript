@@ -14,12 +14,14 @@
    - Pasta que ficarão os arquivos .ts
   `"rootDir": "./src"`
   
-    
-  *Comando para instalar o TypeScript globalmente*
+  ### Comando para instalar o TypeScript globalmente
    - npm install -g typescript
   
-  *Comando para compilar o TypeScript*
+  ### Comando para compilar o TypeScript
    - tsc nomeArquivo.ts
+
+  ### Comando para criar o arquivo tsconfig.json
+   - tsc --init
 
 
 

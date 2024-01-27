@@ -81,7 +81,17 @@
   ```javascript
   let nome:String = "Athos"
   ```
+  
+  ## Convertendo variáveis - Type Assertions(cast)
+   - Usa-se o `as` para converter o tipo
+  *Convertendo um tipo Any em uma string*
+  ```javascript
+  let valor: any = "Isso é uma string";
+  let comprimentoDaString: number = (valor as string).length;
 
+  console.log(comprimentoDaString); // Saída: 18
+  ```
+  
   ## Declarando funções
   ### Declaração padrão
   ```javascript

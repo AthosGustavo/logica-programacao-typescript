@@ -1,4 +1,4 @@
-# logica-programacao_typescript
+# Lógica de programação em TypeScript
 <details>
   <summary>Lógica de programação</summary>
 

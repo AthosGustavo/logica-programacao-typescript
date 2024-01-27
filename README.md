@@ -96,7 +96,9 @@
   console.log(verificaChave)  //Retorna true ou false
   ```
   `delete`: Remove um par chave-valor
+  
   `clear` : Remove todas as chaves do map
+  
   `size`  : Retorna o número de chaves do map
 
 

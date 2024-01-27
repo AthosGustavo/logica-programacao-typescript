@@ -22,8 +22,8 @@
 
   ### Comando para criar o arquivo tsconfig.json
    - tsc --init
-
-
+  ### Comando para compilar o TS
+   - tsc
 
   
 </details>

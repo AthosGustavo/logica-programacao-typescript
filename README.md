@@ -17,14 +17,15 @@
   ### Comando para instalar o TypeScript globalmente
    - npm install -g typescript
   
-  ### Comando para compilar o TypeScript
-   - tsc nomeArquivo.ts
+  ### Comando para executar o TypeScript
+   - node arquivo.js
 
   ### Comando para criar o arquivo tsconfig.json
    - tsc --init
   ### Comando para compilar o TS
    - tsc
 
+  *Obs: Primeiro compile o projeto com tsc, após isso execute o comando node arquivo.js*
   
 </details>
 <details>
@@ -194,5 +195,38 @@
 </details>
 <details>
   <summary>Orientação a Objetos</summary>
+
+  # Orientação a objetos
+  ## Sintaxe simples de criação de uma classe
+  ```javascript
+  class Usuario{
+    nome: string;
+    idade: number;
+    altura: number;
+
+    constructor(nome: string, idade: number, altura: number){
+      this.nome = nome;
+      this.idade = idade;
+      this.altura = altura;
+    }
+  }
+  ```
+
+  ## Inicialização de atributos
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 </details>

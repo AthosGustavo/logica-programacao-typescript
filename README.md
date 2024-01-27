@@ -213,7 +213,77 @@
   ```
 
   ## Inicialização de atributos
+   - Os atributos de uma classe devem ser obrigatoriamente inicializados ou obrigatoriamente marcados como possíveis valores undefined.
+
+  ### Inicializando atributos de forma direta e inalterada
+   - Neste caso, o atributo idade foi inicializado com um valor padrão inalterado e não entra no método construtor.
+
+  ```javascript
+  class Usuario{
+    nome: string;
+    email: string;
+    idade: number = 15;
+
+    constructor(nome: string, email: string){
+        this.nome = nome;
+        this.email = email;
+        
+    }
+  }
+
+  const usuario = new Usuario("athos","athos@.com");
+  console.log(usuario.idade);
+  console.log(usuario.email);
+  console.log(usuario.nome);
+
+  ```
+
+  ### Inicializando atributos com valores padrão em caso de não preenchimento
+   - Neste caso, o atributo idade é iniciado com o valor zero no método construtor e automaticamente atribuido.Caso a idade não for preenchida na instância, o valor do atributo será zero, caso contrário o valor do atributo será o valor passado no parâmetro.
+
+  ```javascript
+  class Usuario{
+    nome: string;
+    email: string;
+    idade: number;
+
+    constructor(nome: string, email: string, idade: number = 0){
+        this.nome = nome;
+        this.email = email;
+        this.idade = idade;
+        
+    }
+  }
+
+  const usuario = new Usuario("athos","athos@.com",17);
+  console.log(usuario.idade);
+  console.log(usuario.email);
+  console.log(usuario.nome);
+  ```
+  ### Tratando atributos com possíveis valores nulos
+   - Neste exemplo, o atributo idade foi marcado como possível valor nulo e ao chamar o construtor da classe o programador tem a liberdade de passar ou não passar o terceiro argumento.
+  ```javascript
+  class Usuario{
+    nome: string;
+    email: string;
+    idade?: number;
+
+    constructor(nome: string, email: string, idade?: number){
+        this.nome = nome;
+        this.email = email;
+        this.idade = idade;
+        
+    }
+  }
+
+  const usuario = new Usuario("athos","athos@.com");
+  console.log(usuario.idade);
+  console.log(usuario.email);
+  console.log(usuario.nome);
+
+  ```
   
+   - Os atributos de uma classe devem ser inicializados de forma direta, através do construtor ou marcado como possíveis valores undefined.
 
 
 

@@ -17,6 +17,7 @@
     
   *Comando para instalar o TypeScript globalmente*
    - npm install -g typescript
+  
   *Comando para compilar o TypeScript*
    - tsc nomeArquivo.ts
 

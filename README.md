@@ -282,21 +282,13 @@
   console.log(usuario.nome);
 
   ```
-  
-   - Os atributos de uma classe devem ser inicializados de forma direta, através do construtor ou marcado como possíveis valores undefined.
+  ## Visibilidade dos atributos
+  ### Publico
+   - Modificador de acesso padrão que da acesso a todos os atributos de fora da classe
 
+  ### Private
+   - Atributos privados só podem ser acessados dentro da própria classe
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+  ### Protected
+   - Atributos protegidos podem ser acessados em classes derivadas (herança)
 </details>

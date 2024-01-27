@@ -1,5 +1,30 @@
 # Lógica de programação em TypeScript
 <details>
+  <summary>Comandos e montagem de ambiente</summary>
+  
+  ## Configurando o arquivo tsconfig.json
+  ### module:
+   - Define o tipo de importação commonjs ou ESNext
+
+  ### outDir
+   - Pasta onde os arquivos .js serão compilados
+  `"outdir": "./dist"`
+
+  ### rootDir
+   - Pasta que ficarão os arquivos .ts
+  `"rootDir": "./src"`
+  
+    
+  *Comando para instalar o TypeScript globalmente*
+   - npm install -g typescript
+  *Comando para compilar o TypeScript*
+   - tsc nomeArquivo.ts
+
+
+
+  
+</details>
+<details>
   <summary>Lógica de programação</summary>
 
   # Lógica de programação
@@ -141,13 +166,9 @@
   
   `size`  : Retorna o número de chaves do map
 
-
-
-
-
-
-
-
-
+  
+</details>
+<details>
+  <summary>Orientação a Objetos</summary>
   
 </details>

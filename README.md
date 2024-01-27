@@ -62,5 +62,50 @@
   ```javascript
   let arrayVazio:number[] = [];
   ```
+
+  *Adicionando valores no final do array*
+  ```javascript
+  let meuArray: number[] = [];
+  meuArray.push(4,5);
+  ```
+
+  *Adicionando valores em um array de forma direta*
+  ```javascript
+  let meuArray: number[] = [1,2,3]
+  meuArray[3] = 4;
+  ```
+  ## Map
+   - Coleção de dados no formato chave-valor
+   - possui ordem de inserção
+  *SINTAXE*
+  ```javascript
+  let nomeMapa: Map<TipoDaChave, TipoDoValor> = new Map();
+  ```
+  ### Métodos
+  `set`: Define um par chave-valor
+  ```javascript
+  variavel.set(chave, valor);
+  ```
+  `get`: Retorna o valor de uma chave
+  ```javascript
+  variavel.get(chave)  //retorna valor
+  ```
+  `has`: Verifica se uma chave está presente no mapa
+  ```javascript
+  let verificaChave: boolean = meuMapa.has("Carro");
+  console.log(verificaChave)  //Retorna true ou false
+  ```
+  `delete`: Remove um par chave-valor
+  `clear` : Remove todas as chaves do map
+  `size`  : Retorna o número de chaves do map
+
+
+
+
+
+
+
+
+
   
 </details>

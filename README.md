@@ -10,7 +10,12 @@
    - yarn add typescript -D
   #### 4-arquivo tsconfig.json
    - yarn tsc --init
-  
+  #### 5-script para rodar os arquivo ts. apenas com o comando yarn dev
+  ```javascript
+   "scripts": {
+    "dev": "node --loader ts-node/esm ./src/index.ts"
+  },
+  ```
   
   ## Configurando o arquivo tsconfig.json
   ### module:

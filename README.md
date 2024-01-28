@@ -2,6 +2,16 @@
 <details>
   <summary>Comandos e montagem de ambiente</summary>
   
+  ## Passo a passo para montar o ambiente do node
+  #### 1-Comando para baixar o arquivo package.json
+   - yarn init -y
+  #### 2-instalar esLint
+  #### 3-Instale o TypeScript
+   - yarn add typescript -D
+  #### 4-arquivo tsconfig.json
+   - yarn tsc --init
+  
+  
   ## Configurando o arquivo tsconfig.json
   ### module:
    - Define o tipo de importação commonjs ou ESNext

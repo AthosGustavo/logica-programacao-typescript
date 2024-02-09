@@ -2,6 +2,12 @@
 <details>
   <summary>Comandos e montagem de ambiente</summary>
   
+  yarn add typescript ts-node-dev @types/express -D
+  
+  
+  
+  
+  
   ## Passo a passo para montar o ambiente do node
   #### 1-Comando para baixar o arquivo package.json
    - yarn init -y
